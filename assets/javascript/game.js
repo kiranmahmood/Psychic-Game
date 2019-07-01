@@ -1,18 +1,18 @@
+//test
 alert("Press any key to begin.")
 
-//Array of possible computer choices
+
 var computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
 
-//Variables for tracking players wins, losses, & guesses left
-var wins = 0;
+
 var losses = 0;
 var guessesLeft = 9;
 var lettersGuessed = [];
 var computerGuess = [];
 
 
-//Initial computer letter
+//User
 window.onload = function () {
     var compGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
     computerGuess.push(compGuess);
